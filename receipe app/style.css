@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: url('https://images.unsplash.com/photo-1600891964599-f61ba0e24092') no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: rgba(0, 0, 0, 0.75);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #ffcc00;
+}
+
+.dish-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.dish-btn {
+  background: #ff7f50;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  transition: background 0.3s;
+}
+
+.dish-btn:hover {
+  background: #ff5722;
+}
+
+.recipe {
+  background: #ffffff11;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+}
+
+.recipe h2 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.recipe ul {
+  margin-left: 20px;
+}
+
+.recipe p {
+  margin-top: 10px;
+}
